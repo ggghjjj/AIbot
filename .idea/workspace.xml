@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c667558-af13-4b0a-9a05-6f4bcb469542" name="变更" comment="" />
+    <list default="true" id="9c667558-af13-4b0a-9a05-6f4bcb469542" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/src/main/java/com/kob/backend/BackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/src/main/java/com/kob/backend/controller/pk/BotInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/src/main/java/com/kob/backend/controller/pk/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/src/main/resources/static/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/src/main/resources/templates/pk/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kob2/src/test/java/com/kob/backend/BackendApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657524697305</updated>
-      <workItem from="1657524698820" duration="1549000" />
+      <workItem from="1657524698820" duration="2468000" />
     </task>
     <servers />
   </component>
