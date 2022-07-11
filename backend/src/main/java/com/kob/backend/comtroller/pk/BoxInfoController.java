@@ -14,7 +14,7 @@ public class BoxInfoController {
         Map<String,String> ad = new HashMap<>();
         ad.put("name","ggghj");
         ad.put("age","18");
-        ad.put("sex","nan");
+        ad.put("sex","男");
         return ad;
     }
 }
