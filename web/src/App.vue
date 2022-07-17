@@ -1,46 +1,24 @@
 <template>
-  <div>
-    <div>名称:{{name}}</div>
-    <div>年龄:{{age}}</div>
-   <div>性别:{{ sex}}</div>
-  </div> 
+  <NavBar />
   <router-view></router-view>
 </template>
 
-<script>
 
- import $ from 'jquery';
-import { ref } from 'vue';
+<script>
+import NavBar from './components/NavBar.vue'
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap"
 
 export default {
-  name:"App",
-  setup: ()=> {
-      let name = ref("");
-      let age = ref("");
-      let sex = ref("");
-
-      $.ajax({
-        url:"http://localhost:3000/pk/boxinfo/",
-        type:"get",
-        success: resp => {
-          name.value = resp.name;
-          age.value = resp.age;
-          sex.value = resp.sex;
-        }
-      });
-
-      return {
-        name,
-        age,
-        sex
-  }
+  components: {
+    NavBar
   }
 }
 </script>
 
 <style>
-body{
-  background-image: url("@/assets/background.png");
-  background-size:cover ;
+body {
+  background-image: url("@/assets/images/background.png");
+  background-size: cover;
 }
 </style>
