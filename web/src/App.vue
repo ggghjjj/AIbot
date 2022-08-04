@@ -12,7 +12,11 @@ import "bootstrap/dist/js/bootstrap"
 export default {
   components: {
     NavBar
-  }
+  },
+
+  setup() {
+
+   }
 }
 </script>
 
@@ -21,4 +25,6 @@ body {
   background-image: url("@/assets/images/background.png");
   background-size: cover;
 }
+
+
 </style>

@@ -36,8 +36,8 @@ public class UserControlly {
 
         String encoder = passwordEncoder.encode(password);
 
-        User user = new User(userId,username,encoder);
-        userMapper.insert(user);
+       // User user = new User(userId,username,encoder);
+       // userMapper.insert(user);
         return "Add user successful";
     }
 
