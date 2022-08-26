@@ -44,6 +44,7 @@ export class Snake extends AcGameObject {
     }
 
     set_direction(d) {
+        console.log("ha");
         this.direction = d;
     }
 
@@ -54,6 +55,7 @@ export class Snake extends AcGameObject {
     }
 
     next_step() {  // 将蛇的状态变为走下一步
+        console.log("ha");
         const d = this.direction;
         this.next_cell = new Cell(this.cells[0].r + this.dr[d], this.cells[0].c + this.dc[d]);
         this.eye_direction = d;
@@ -66,9 +68,6 @@ export class Snake extends AcGameObject {
             this.cells[i] = JSON.parse(JSON.stringify(this.cells[i - 1]));
         }
 
-        if (!this.gamemap.check_valid(this.next_cell)) {  // 下一步操作撞了，蛇瞬间去世
-            this.status = "die";
-        }
     }
 
     update_move() {
