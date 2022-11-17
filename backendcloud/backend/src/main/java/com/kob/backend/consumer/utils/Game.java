@@ -2,7 +2,12 @@ package com.kob.backend.consumer.utils;
 
 import com.alibaba.fastjson.JSONObject;
 import com.kob.backend.consumer.WebSocketServer;
+import com.kob.backend.pojo.Bot;
 import com.kob.backend.pojo.Record;
+import com.kob.backend.pojo.User;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -23,13 +28,25 @@ public class Game extends Thread {
     private String status = "playing";  // playing -> finished
     private String loser = "";  // all: 平局，A: A输，B: B输
 
-    public Game(Integer rows, Integer cols, Integer inner_walls_count, Integer idA, Integer idB) {
+    private final static String addBotUrl = "http://127.0.0.1:3002/bot/add/";
+    public Game(Integer rows, Integer cols, Integer inner_walls_count, Integer idA, Bot botA, Integer idB,Bot botB) {
         this.rows = rows;
         this.cols = cols;
         this.inner_walls_count = inner_walls_count;
         this.g = new int[rows][cols];
-        playerA = new Player(idA, rows - 2, 1, new ArrayList<>());
-        playerB = new Player(idB, 1, cols - 2, new ArrayList<>());
+        Integer botAId = -1, botBId = -1;
+        String botACode = "";
+        String botBCode = "";
+        if(botA != null) {
+            botAId = botA.getId();
+            botACode = botA.getContent();
+        }
+        if(botB != null) {
+            botBId = botB.getId();
+            botBCode = botB.getContent();
+        }
+        playerA = new Player(idA,botAId,botACode, rows - 2, 1, new ArrayList<>());
+        playerB = new Player(idB,botBId,botBCode ,1, cols - 2, new ArrayList<>());
     }
 
     public Player getPlayerA() {
@@ -120,6 +137,36 @@ public class Game extends Thread {
         }
     }
 
+    public String getInput(Player player) {
+        Player me,you;
+        if(playerA.getId().equals(player.getId())) {
+            me = playerA;
+            you = playerB;
+        }else {
+            me = playerB;
+            you = playerA;
+        }
+
+        return getMapString() + "#" +
+                me.getSx() + "#" +
+                me.getSy() + "#(" +
+                me.getStepsString() + ")#" +
+                you.getSx() + "#" +
+                you.getSy() + "#(" +
+                you.getStepsString() + ")";
+
+    }
+
+    public void sendBotCode(Player player) {
+        if(player.getBotId().equals(-1)) return;
+        MultiValueMap<String,String> data = new LinkedMultiValueMap<>();
+        data.add("user_id",player.getId().toString());
+        data.add("bot_code",player.getBotCode());
+        data.add("input",getInput(player));
+        System.out.println("到达addBotUrl");
+    //    WebSocketServer.restTemplate.postForObject(addBotUrl,data,String.class);
+        WebSocketServer.restTemplate.postForObject(addBotUrl, data, String.class);
+    }
     private boolean nextStep() {  // 等待两名玩家的下一步操作
         try {
             Thread.sleep(200);
@@ -127,6 +174,8 @@ public class Game extends Thread {
             throw new RuntimeException(e);
         }
 
+        sendBotCode(playerA);
+        sendBotCode(playerB);
         for (int i = 0; i < 50; i ++ ) {
             try {
                 Thread.sleep(100);
@@ -216,7 +265,29 @@ public class Game extends Thread {
         return res.toString();
     }
 
+    private void updataUserRating(Player player,Integer rating) {
+        User user = WebSocketServer.userMapper.selectById(player.getId());
+        user.setRating(rating);
+        WebSocketServer.userMapper.updateById(user);
+    }
+
     private void saveToDatabase() {
+
+        Integer ratingA = WebSocketServer.userMapper.selectById(playerA.getId()).getRating();
+        Integer ratingB = WebSocketServer.userMapper.selectById(playerB.getId()).getRating();
+
+        if("A".equals(loser)) {
+            ratingB+=5;
+            ratingA-=2;
+
+        }else if("B".equals(loser)) {
+            ratingA+=5;
+            ratingB-=2;
+        }
+
+        updataUserRating(playerA,ratingA);
+        updataUserRating(playerB,ratingB);
+
         Record record = new Record(
                 null,
                 playerA.getId(),

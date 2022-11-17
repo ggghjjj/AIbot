@@ -5,30 +5,247 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c667558-af13-4b0a-9a05-6f4bcb469542" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/src/main/java/com/kob/backend/BackendApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/src/main/java/com/kob/backend/controller/pk/BotInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/src/main/java/com/kob/backend/controller/pk/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/src/main/resources/static/image/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/src/main/resources/templates/pk/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kob2/src/test/java/com/kob/backend/BackendApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3b60c023-1862-4700-a217-068ccab3586b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3b60c023-1862-4700-a217-068ccab3586b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3b60c023-1862-4700-a217-068ccab3586b/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/3b60c023-1862-4700-a217-068ccab3586b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kob.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson2_fastjson2_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson2_fastjson2_extension_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_2_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_11_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_11_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_11_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/BotRunningSystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/config/RestTemplateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/controller/BotRunningController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/service/BotRunningService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/service/Impl/BotRunningServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/service/utils/BotPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/service/utils/Consume.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/utils/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/utils/BotInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/comtroller/pk/ReceiveBotMoveController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/comtroller/ranklist/GrtRanklistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/comtroller/record/GetRecordListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/impl/pk/ReceiveBotMoveServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/impl/ranklist/GetRanklistSerciceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/impl/record/GetRecordListServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/pk/ReceiveBotMoveService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/ranklist/GetRanklistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/record/GetRecordListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/store/record.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/views/record/RecordContentView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/BackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/comtroller/pk/BoxInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/comtroller/pk/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/comtroller/user/UserControlly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/comtroller/user/account/InfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/comtroller/user/account/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/comtroller/user/account/RegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/comtroller/user/bot/AddController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/comtroller/user/bot/GetListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/comtroller/user/bot/RemoveController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/comtroller/user/bot/UpdateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/config/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/config/filter/WebSocketConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/consumer/WebSocketServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/consumer/utils/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/service/utils/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/consumer/utils/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/consumer/utils/JwtAuthentication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/consumer/utils/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/mapper/BotMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/mapper/RecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/pojo/Bot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/pojo/Record.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/impl/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/impl/user/account/InfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/impl/user/account/LoginServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/impl/user/account/RegisterServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/impl/user/bot/AddServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/impl/user/bot/GetListServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/impl/user/bot/RemoveServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/impl/user/bot/UpdateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/impl/utils/UserDetailsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/user/account/InfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/user/account/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/user/account/RegisterService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/user/bot/AddService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/user/bot/GetListService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/user/bot/RemoveService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/service/user/bot/UpdateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/kob/backend/utils/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/static/image/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/templates/pk/hello.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/kob/backend/BackendApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/comtroller/pk/StartGameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/comtroller/pk/StartGameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/consumer/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/consumer/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/consumer/utils/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/consumer/utils/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/consumer/utils/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/consumer/utils/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/impl/pk/StartGameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/impl/pk/StartGameServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/impl/user/bot/AddServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/impl/user/bot/AddServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/pk/StartGameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/backend/src/main/java/com/kob/backend/service/pk/StartGameService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/matchingsystem/src/main/java/com/kob/matchingsystem/controller/MatchingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/matchingsystem/src/main/java/com/kob/matchingsystem/controller/MatchingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/matchingsystem/src/main/java/com/kob/matchingsystem/service/MatchingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/matchingsystem/src/main/java/com/kob/matchingsystem/service/MatchingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/matchingsystem/src/main/java/com/kob/matchingsystem/service/impl/MatchingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/matchingsystem/src/main/java/com/kob/matchingsystem/service/impl/MatchingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/matchingsystem/src/main/java/com/kob/matchingsystem/service/impl/utils/MatchingPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/matchingsystem/src/main/java/com/kob/matchingsystem/service/impl/utils/MatchingPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/matchingsystem/src/main/java/com/kob/matchingsystem/service/impl/utils/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/matchingsystem/src/main/java/com/kob/matchingsystem/service/impl/utils/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/script/GameMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/assets/script/GameMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/components/MatchGround.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/MatchGround.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/pk/PkIndexView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/pk/PkIndexView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/ranklist/RanklistIndexView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/ranklist/RanklistIndexView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/views/record/RecordIndexView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/views/record/RecordIndexView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,6 +253,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -48,6 +266,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -56,20 +275,69 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backendcloud/BotRunningSystem/src/main/java/com/kob/botrunningsystem/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springboot\kob\backendcloud\BotRunningSystem\src\main\java\com\kob\botrunningsystem\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackendApplication">
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kob.backend.BackendApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BotRunningSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="botRunningSystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kob.botrunningsystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kob.botrunningsystem.BotRunningSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="MatchingSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="matchingsystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kob.matchingsystem.MatchingSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.BackendApplication" />
+      <item itemvalue="Spring Boot.MatchingSystemApplication" />
+      <item itemvalue="Spring Boot.BotRunningSystemApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BotRunningSystemApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,6 +348,16 @@
       <option name="presentableId" value="Default" />
       <updated>1657524697305</updated>
       <workItem from="1657524698820" duration="2468000" />
+      <workItem from="1667958202333" duration="252000" />
+      <workItem from="1667958598695" duration="501000" />
+      <workItem from="1667959123687" duration="387000" />
+      <workItem from="1667959532094" duration="609000" />
+      <workItem from="1667960170643" duration="16590000" />
+      <workItem from="1668041842206" duration="14520000" />
+      <workItem from="1668492499725" duration="7940000" />
+      <workItem from="1668503797003" duration="923000" />
+      <workItem from="1668589311363" duration="1214000" />
+      <workItem from="1668647460639" duration="4609000" />
     </task>
     <servers />
   </component>
