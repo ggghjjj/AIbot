@@ -4,9 +4,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/backendcloud/pom.xml" />
-        <option value="$PROJECT_DIR$/backendcloud/backend/pom.xml" />
-        <option value="$PROJECT_DIR$/backendcloud/matchingsystem/pom.xml" />
         <option value="$PROJECT_DIR$/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/backendcloud/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/backendcloud/BotRunningSystem/pom.xml" />
+        <option value="$PROJECT_DIR$/backendcloud/matchingsystem/pom.xml" />
       </list>
     </option>
   </component>

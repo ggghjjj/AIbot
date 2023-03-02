@@ -7,7 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="botRunningSystem" />
+        <module name="BotRunningSystem" />
         <module name="backend" />
         <module name="matchingsystem" />
       </profile>
@@ -17,6 +17,7 @@
       <module name="backend (1) (com.kob)" target="1.8" />
       <module name="backend (2) (com.kob.backend)" target="1.8" />
       <module name="backendcloud" target="1.8" />
+      <module name="BotRunningSystem" target="1.8" />
       <module name="botRunningSystem" target="1.8" />
       <module name="matchingsystem" target="1.8" />
     </bytecodeTargetLevel>

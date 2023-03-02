@@ -1,4 +1,4 @@
-package com.kob.backend.controller.user.account;
+package com.kob.backend.comtroller.user.account;
 
 import com.kob.backend.service.user.account.InfoService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,7 @@ public class InfoController {
     @Autowired
     private InfoService infoService;
 
-    @GetMapping("/user/account/info/")
+    @GetMapping("/api/user/account/info/")
     public Map<String, String> getinfo() {
         return infoService.getinfo();
     }
