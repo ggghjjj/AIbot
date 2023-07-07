@@ -192,7 +192,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../code/hm-dianping" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hm-dianping" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -216,23 +216,23 @@
   </component>
   <component name="RunManager" selected="Spring Boot.BackendApplication">
     <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kob.backend.BackendApplication" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="BotRunningSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="botRunningSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kob.botrunningsystem.BotRunningSystemApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kob.botrunningsystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kob.botrunningsystem.BotRunningSystemApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />

@@ -13,13 +13,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="backend" target="1.8" />
       <module name="backend (1) (com.kob)" target="1.8" />
       <module name="backend (2) (com.kob.backend)" target="1.8" />
-      <module name="backendcloud" target="1.8" />
-      <module name="BotRunningSystem" target="1.8" />
       <module name="botRunningSystem" target="1.8" />
-      <module name="matchingsystem" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
