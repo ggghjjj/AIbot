@@ -86,9 +86,9 @@ export default {
 
         const pull_page = page => {
             current_page = page;
-      
+            console.log("getlist");
             $.ajax({
-                url:"https://app488.acapp.acwing.com.cn/api/ranklist/getlist/",
+                url:"http://127.0.0.1:3000/api/ranklist/getlist/",
                 data : {
                     page,
                 }, 
@@ -114,7 +114,9 @@ export default {
         return{
             click_page,
             udpate_pages,
-            pages
+            pull_page,
+            pages,
+            users
         }
     }
 }

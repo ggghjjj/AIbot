@@ -153,8 +153,9 @@ export default {
         });
 
         const refresh_bots = () => {
+            console.log("bot_getlist");
             $.ajax({
-                    url: "https://app488.acapp.acwing.com.cn/api/user/bot/getlist/",
+                    url: "http://127.0.0.1:3000/api/user/bot/getlist/",
                     type: "get",
                     headers: {
                         Authorization: "Bearer " + store.state.user.token,
@@ -166,11 +167,13 @@ export default {
         }
 
          refresh_bots();
-          
+         
         const add_bot =() =>{
+            
+            console.log("bot_add");
             botadd.error_message = "";
              $.ajax({
-             url: "https://app488.acapp.acwing.com.cn/api/user/bot/add/",
+             url: "http://127.0.0.1:3000/api/user/bot/add/",
                 type: "POST",
                 data: {
                     title: botadd.title,
@@ -199,9 +202,10 @@ export default {
         }
 
         const update_bot = (bot) => {
+            console.log("bt_update");
             botadd.error_message = "";
              $.ajax({
-             url: "https://app488.acapp.acwing.com.cn/api/user/bot/update/",
+             url: "http://127.0.0.1:3000/api/user/bot/update/",
                 type: "POST",
                 data: {
                     bot_id:bot.id,
@@ -226,11 +230,41 @@ export default {
         
             });
 
-        } 
+        }
+
+       const get_Bot=()=> {
+
+        $.ajax({
+             url: "http://127.0.0.1:3000/api/user/bot/code/",
+            type: "get",
+            headers: {
+                Authorization: "Bearer " + store.state.user.token,
+            },
+            success(resp) {
+                botadd.content = resp.code;
+               if(resp.error_message==="success") {
+                 botadd.content = resp.code;
+                }
+            }
+
+    //   axios.get('/api/bot') // 示例：假设后端接口路径为 /api/bot
+    //     .then(response => {
+    //       // 处理后端返回的结果
+    //       console.log(response.data);
+    //     })
+    //     .catch(error => {
+    //       // 处理错误
+    //       console.error(error);
+    //     });
+             });
+    }
+
+    get_Bot();
 
         const remove_bot = (bot) => {
+            console.log("bot_remove");
             $.ajax({
-             url: "https://app488.acapp.acwing.com.cn/api/user/bot/remove/",
+             url: "http://127.0.0.1:3000/api/user/bot/remove/",
             type: "post",
             data: {
                 bot_id:bot.id,
@@ -253,7 +287,8 @@ export default {
             botadd,
             add_bot,
             remove_bot,
-            update_bot
+            update_bot,
+            get_Bot
         }
     }
      

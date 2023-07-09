@@ -22,7 +22,7 @@ export default {
 
 <style>
 body {
-  background-image: url("@/assets/images/background.png");
+  background-image: url("@/assets/images/back1.jpg");
   background-size: cover;
 }
 

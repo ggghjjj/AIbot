@@ -8,8 +8,17 @@ import NotFound from '../views/error/NotFound.vue'
 import UserAccountLoginView from '../views/user/account/UserAccountLoginView'
 import UserAccountRegisterView from '../views/user/account/UserAccountRegisterView'
 import store from '../store/index'
+import HomeView from '../views/HomeView'
 
 const routes = [
+  {
+    path: '/',
+    name: 'home',
+    component: HomeView,
+    meta:{
+        requestAuth : false
+    }
+},
   {
     path: "/user/account/login/",
     name: "user_account_login",
@@ -25,14 +34,6 @@ const routes = [
     component: UserAccountRegisterView,
     meta: {
       requestAuth: false,
-    }
-  },
-  {
-    path: "/",
-    name: "home",
-    redirect: "/pk/",
-    meta: {
-      requestAuth: true,
     }
   },
   {

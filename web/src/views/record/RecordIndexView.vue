@@ -102,9 +102,9 @@ export default {
 
         const pull_page = page => {
             current_page = page;
-      
+            console.log("record")
             $.ajax({
-                url:"https://app488.acapp.acwing.com.cn/api/record/getlist/",
+                url:"http://127.0.0.1:3000/api/record/getlist/",
                 data : {
                     page,
                 }, 
@@ -178,6 +178,7 @@ export default {
             open_record_content,
             click_page,
             udpate_pages,
+            pull_page,
             pages
         }
     }

@@ -1,7 +1,10 @@
 <template>
+
+
       <PlayGround v-if="$store.state.pk.status === 'playing'" />
       <MatchGround v-if="$store.state.pk.status === 'matching'" />
        <ResultBoard v-if="$store.state.pk.loser != 'none'" />
+
        <div class="user-color" v-if="$store.state.pk.status === 'playing' && parseInt($store.state.user.id) === parseInt($store.state.pk.a_id)">左下角</div>
     <div class="user-color" v-if="$store.state.pk.status === 'playing' && parseInt($store.state.user.id) === parseInt($store.state.pk.b_id)">右上角</div>
 
@@ -14,6 +17,7 @@ import MatchGround from '../../components/MatchGround.vue'
 import { onMounted,onUnmounted} from 'vue'
 import { useStore } from 'vuex'
 import ResultBoard from '@/components/ResultBoard.vue'
+// import {ref} from 'vue'
 export default {
     components: {
       PlayGround,
@@ -22,12 +26,20 @@ export default {
     },
     setup() {
       const store = useStore();
-      const socketurl =`wss://app488.acapp.acwing.com.cn/websocket/${store.state.user.token}/`;
+      const socketurl =`ws://127.0.0.1:3000/websocket/${store.state.user.token}/`;
+
+    //   const countdownValue = ref('');
+    // const countdownElement = ref(null);
+    // let countdownInterval = null;
+
 
       store.commit("updateLoser", "none");
       store.commit("updateIsRecord", false);
       let socket = null;
       onMounted(()=>{
+
+
+        
         socket = new WebSocket(socketurl);
 
         socket.onopen = () => {
@@ -49,13 +61,14 @@ export default {
             },200);
 
             store.commit("updateGame",data.game);
-           
+
           }else if(data.event === "move") {
             const game = store.state.pk.gameObject;
             const [snake0, snake1] = game.snakes;
          
             snake0.set_direction(data.a_direction);
             snake1.set_direction(data.b_direction);
+      
           }else if(data.event === "result") {
             console.log(data);
               const game = store.state.pk.gameObject;
@@ -77,13 +90,17 @@ export default {
           console.log("disconnect");
         }
       })
+      
 
       onUnmounted(()=>{
+      
         socket.close();
+
       })
       
 
     }
+
 }
 </script>
 
@@ -95,5 +112,6 @@ div.user-color {
     font-size: 30px;
     font-weight: 600;
 }
+
 
 </style>

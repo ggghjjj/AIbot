@@ -58,8 +58,10 @@ export default {
     let error_message = ref("");
 
     const register = () => {
+      console.log("请求register");
       $.ajax({
-        url: "https://app488.acapp.acwing.com.cn/api/user/account/register/",
+        
+        url: "http://127.0.0.1:3000/api/user/account/register/",
         type: "post",
         data: {
           username: username.value,
