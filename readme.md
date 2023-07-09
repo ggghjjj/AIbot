@@ -20,7 +20,7 @@
 - 比如我们可以用BFS的思想,定义数组dx,dy 来表示我们下一个方向往哪里走，然后暴力遍历四个方向，如果没出地图外
 和下一个位置是0，我们就返回当前这个方向
 
-```agsl
+```java
 package com.kob.botrunningsystem.utils;
 
 import java.io.File;
@@ -144,7 +144,7 @@ public class Bot implements java.util.function.Supplier<Integer> {
 
 ### 附上AI机器人代码
 
-```agsl
+```java
 package com.kob.botrunningsystem.utils;
 
 import java.io.File;
