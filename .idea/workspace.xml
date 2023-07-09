@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c667558-af13-4b0a-9a05-6f4bcb469542" name="变更" comment="" />
+    <list default="true" id="9c667558-af13-4b0a-9a05-6f4bcb469542" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backendcloud/backend/target/classes/com/kob/backend/config/filter/JwtAuthenticationTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/backendcloud/backend/target/classes/com/kob/backend/config/filter/JwtAuthenticationTokenFilter.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +160,7 @@
       <workItem from="1677034528379" duration="1397000" />
       <workItem from="1688696173540" duration="1440000" />
       <workItem from="1688783482692" duration="12392000" />
-      <workItem from="1688868778105" duration="7456000" />
+      <workItem from="1688868778105" duration="10018000" />
     </task>
     <servers />
   </component>
