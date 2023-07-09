@@ -15,6 +15,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.locks.ReentrantLock;
 
+import static com.kob.backend.comtroller.pk.StartGameController.usersAndAi;
+
 public class Game extends Thread {
     private final Integer rows;
     private final Integer cols;
@@ -235,6 +237,7 @@ public class Game extends Thread {
     }
 
     private void sendAllMessage(String message) {
+        System.out.println("准备给用户下达指令");
         if(WebSocketServer.users.get(playerA.getId())!=null)
         WebSocketServer.users.get(playerA.getId()).sendMessage(message);
         if(WebSocketServer.users.get(playerB.getId())!=null)
@@ -340,6 +343,7 @@ public class Game extends Thread {
                     lock.unlock();
                 }
                 sendResult();
+                usersAndAi.remove(playerA.getId());
                 break;
             }
         }

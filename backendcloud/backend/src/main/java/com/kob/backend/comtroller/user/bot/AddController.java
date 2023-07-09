@@ -19,4 +19,9 @@ public class AddController {
         System.out.println(data);
         return addService.add(data);
     }
+
+    @GetMapping("/api/user/bot/code/")
+    public Map<String,String> getCode() {
+        return addService.getCode();
+    }
 }

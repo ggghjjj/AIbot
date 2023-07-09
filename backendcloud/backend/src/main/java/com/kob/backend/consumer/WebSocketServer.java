@@ -15,6 +15,7 @@ import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
+import javax.annotation.PostConstruct;
 import javax.websocket.*;
 import javax.websocket.server.PathParam;
 import javax.websocket.server.ServerEndpoint;
@@ -54,7 +55,6 @@ WebSocketServer {
     public void setRestTemplate(RestTemplate restTemplate) {WebSocketServer.restTemplate = restTemplate;}
     @Autowired
     public void setBotMapper(BotMapper botMapper){WebSocketServer.botMapper = botMapper;}
-
     @OnOpen
     public void onOpen(Session session, @PathParam("token") String token) throws IOException {
         this.session = session;
