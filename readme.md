@@ -1,7 +1,7 @@
 ### 项目体验地址
 https://app488.acapp.acwing.com.cn/
 
-<span style="color:red">注意：</span> 进行对战不要开启vpn,不然会导致wss失效。
+**注意：** 进行对战不要开启vpn,不然会导致wss失效。
 
 ### 项目简介
     
