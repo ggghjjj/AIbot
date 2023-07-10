@@ -1,5 +1,5 @@
 ### 项目体验地址
-https://app488.acapp.acwing.com.cn/record/
+https://app488.acapp.acwing.com.cn/
 
 
 ### 项目简介
