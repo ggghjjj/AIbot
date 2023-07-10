@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c667558-af13-4b0a-9a05-6f4bcb469542" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web" beforeDir="false" afterPath="$PROJECT_DIR$/web" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/gaohuijie/code/AIbot",
+    "last_opened_file_path": "/home/gaohuijie/code/xuecheng-plus",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -160,6 +160,7 @@
       <workItem from="1688696173540" duration="1440000" />
       <workItem from="1688783482692" duration="12392000" />
       <workItem from="1688868778105" duration="12316000" />
+      <workItem from="1688951111051" duration="300000" />
     </task>
     <servers />
   </component>
