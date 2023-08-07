@@ -3,8 +3,11 @@ https://app488.acapp.acwing.com.cn/
 
 **注意：** 进行对战不要开启vpn,不然会导致wss失效。
 
+
 ### 项目简介
-    
+ #### 项目借鉴平台： https://www.botzone.org.cn/
+ 以贪吃蛇为背景的AI对战游戏，可以实现玩家和玩家对战，玩家和机器对战，提供录像回放功能
+ 
 本项目一共分为三个模块
 - Backend  负责将所有的请求传递到这里，进行主要的逻辑功能
 - BotRunningSystem 负责完成编译玩家写的代码，返回bot的下一步操作
@@ -146,6 +149,12 @@ public class Bot implements java.util.function.Supplier<Integer> {
 
 
 ```
+
+### 游戏截图
+
+![img2.png](backendcloud%2Fimages%2Fimg2.png)
+
+![img_1.png](backendcloud%2Fimages%2Fimg_1.png)
 
 ### 附上AI机器人代码
 

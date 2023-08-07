@@ -80,6 +80,7 @@ WebSocketServer {
     }
 
     public static void startGame(Integer aId,Integer aBotId, Integer bId,Integer bBotId) {
+        // A用户 B用户
         User a = userMapper.selectById(aId);
         User b = userMapper.selectById(bId);
 

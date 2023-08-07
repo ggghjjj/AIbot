@@ -68,6 +68,23 @@ public class MatchingPool extends Thread {
         restTemplate.postForObject(startGameUrl, data, String.class);
     }
 
+//    private void matchPlayers2() {
+//
+//        boolean[] usr = new boolean[players.size()];
+//        for(int i = 0;i<players.size();i++) {
+//            if(usr[i]) continue;
+//            for(int j=0;j<players.size();j++) {
+//                if(usr[j]) continue;
+//                if(checkMatched(players.get(i),players.get(j))) {
+//                    sendResult(players.get(i),players.get(j));
+//                    usr[i] = true;
+//                    usr[j] = true;
+//                    break;
+//                }
+//            }
+//        }
+//    }
+
     private void matchPlayers() {  // 尝试匹配所有玩家
         //System.out.println("match players: " + players.toString());
         boolean[] used = new boolean[players.size()];
